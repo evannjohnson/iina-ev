@@ -393,6 +393,7 @@ struct Preference {
     case seek
     case none
     case passToMpv
+    case speed
 
     static var defaultValue = ScrollAction.volume
 
