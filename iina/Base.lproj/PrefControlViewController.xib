@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22690"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -26,7 +26,7 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="310"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zSQ-pa-Urx">
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zSQ-pa-Urx">
                     <rect key="frame" x="56" y="228" width="168" height="16"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Seek type:" id="1yb-m4-1sK">
                         <font key="font" metaFont="system"/>
@@ -34,7 +34,7 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hxT-iF-nwJ">
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hxT-iF-nwJ">
                     <rect key="frame" x="56" y="266" width="168" height="16"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Scroll horizontally to:" id="w1Y-jy-vNc">
                         <font key="font" metaFont="system"/>
@@ -59,7 +59,7 @@
                         <binding destination="Yrj-d0-KaY" name="selectedTag" keyPath="values.useExactSeek" id="wcY-Ar-BKb"/>
                     </connections>
                 </popUpButton>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LN0-rs-jJB">
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LN0-rs-jJB">
                     <rect key="frame" x="56" y="206" width="426" height="14"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Exact seek is more precise but can cause lag and higher CPU usage." id="6FZ-Qm-0k0">
                         <font key="font" metaFont="message" size="11"/>
@@ -67,7 +67,7 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="m0j-Zw-pcy">
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="m0j-Zw-pcy">
                     <rect key="frame" x="56" y="182" width="168" height="16"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Sensitivity for normal seek:" id="of2-ec-OkC">
                         <font key="font" metaFont="system"/>
@@ -75,7 +75,7 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="E8B-5D-NHc">
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="E8B-5D-NHc">
                     <rect key="frame" x="56" y="80" width="168" height="17"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="17" id="C2j-3C-GTX"/>
@@ -86,7 +86,7 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="IGA-yr-g8l">
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="IGA-yr-g8l">
                     <rect key="frame" x="56" y="56" width="168" height="16"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Double click to:" id="GPH-fM-XHN">
                         <font key="font" metaFont="system"/>
@@ -94,7 +94,7 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2rD-uu-WVu">
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2rD-uu-WVu">
                     <rect key="frame" x="56" y="32" width="168" height="16"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Right click to:" id="Rqy-g2-AP2">
                         <font key="font" metaFont="system"/>
@@ -171,7 +171,7 @@
                         <binding destination="Yrj-d0-KaY" name="selectedTag" keyPath="values.rightClickAction" id="u2V-us-lLK"/>
                     </connections>
                 </popUpButton>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="oVB-QD-c1C">
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="oVB-QD-c1C">
                     <rect key="frame" x="56" y="290" width="168" height="16"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Scroll vertically to:" id="hNU-dJ-5Cj">
                         <font key="font" metaFont="system"/>
@@ -181,9 +181,6 @@
                 </textField>
                 <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ve7-Hz-Drk">
                     <rect key="frame" x="227" y="283" width="227" height="25"/>
-                    <constraints>
-                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="220" id="Hnx-Hf-NpH"/>
-                    </constraints>
                     <popUpButtonCell key="cell" type="push" title="Adjust volume" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="SYg-hW-b6r" id="q36-W8-OhN">
                         <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="menu"/>
@@ -195,6 +192,9 @@
                             </items>
                         </menu>
                     </popUpButtonCell>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="220" id="Hnx-Hf-NpH"/>
+                    </constraints>
                     <connections>
                         <binding destination="Yrj-d0-KaY" name="selectedTag" keyPath="values.verticalScrollAction" id="Yrk-fe-0Hj"/>
                     </connections>
@@ -207,6 +207,7 @@
                         <menu key="menu" id="aEA-Qe-wDM">
                             <items>
                                 <menuItem title="Seek" state="on" tag="1" id="wcS-tP-wav"/>
+                                <menuItem title="Adjust volume" id="CXf-Ca-OhE"/>
                                 <menuItem title="None" tag="2" id="guu-dK-YfL"/>
                             </items>
                         </menu>
@@ -225,7 +226,7 @@
                         <binding destination="Yrj-d0-KaY" name="value" keyPath="values.volumeScrollAmount" id="82d-7Z-8rD"/>
                     </connections>
                 </slider>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hVI-sA-syi">
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hVI-sA-syi">
                     <rect key="frame" x="56" y="157" width="168" height="17"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="17" id="xjp-9y-KHA"/>
@@ -236,7 +237,7 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="OhO-nN-LgD">
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="OhO-nN-LgD">
                     <rect key="frame" x="56" y="8" width="168" height="16"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Middle click to:" id="Gyd-Qt-FEo">
                         <font key="font" metaFont="system"/>
@@ -296,7 +297,7 @@
                         <constraint firstAttribute="height" constant="43" id="nr7-9l-bF7"/>
                     </constraints>
                 </customView>
-                <textField identifier="SectionTitleMouse" hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fL5-By-MLE">
+                <textField identifier="SectionTitleMouse" hidden="YES" focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fL5-By-MLE">
                     <rect key="frame" x="-2" y="0.0" width="45" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Mouse" id="1c2-Py-3Bm">
@@ -384,9 +385,6 @@
             <subviews>
                 <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="nio-Fb-YPK">
                     <rect key="frame" x="231" y="25" width="227" height="25"/>
-                    <constraints>
-                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="220" id="VqZ-W3-2hi"/>
-                    </constraints>
                     <popUpButtonCell key="cell" type="push" title="Adjust window size" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="Ols-Lr-fiH" id="FbW-ce-yAK">
                         <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="menu"/>
@@ -398,11 +396,14 @@
                             </items>
                         </menu>
                     </popUpButtonCell>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="220" id="VqZ-W3-2hi"/>
+                    </constraints>
                     <connections>
                         <binding destination="Yrj-d0-KaY" name="selectedTag" keyPath="values.pinchAction" id="Sou-Ja-Arx"/>
                     </connections>
                 </popUpButton>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XJb-x1-5LL">
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XJb-x1-5LL">
                     <rect key="frame" x="56" y="32" width="172" height="16"/>
                     <constraints>
                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="168" id="YVG-Jz-3os"/>
@@ -413,7 +414,7 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rUe-Ix-oaI">
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rUe-Ix-oaI">
                     <rect key="frame" x="56" y="8" width="172" height="16"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Force Touch to:" id="dpH-PO-WKt">
                         <font key="font" metaFont="system"/>
@@ -462,7 +463,7 @@
                         <constraint firstItem="MJc-ye-l1u" firstAttribute="centerX" secondItem="csk-yk-vkf" secondAttribute="centerX" id="mlO-q2-zxA"/>
                     </constraints>
                 </customView>
-                <textField identifier="SectionTitleTrackpad" hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nbu-IK-O9W">
+                <textField identifier="SectionTitleTrackpad" hidden="YES" focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nbu-IK-O9W">
                     <rect key="frame" x="-2" y="0.0" width="61" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Trackpad" id="dmO-jU-SEg">
