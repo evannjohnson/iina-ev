@@ -404,6 +404,8 @@ struct Preference {
     case pause
     case hideOSC
     case togglePIP
+    case abLoop
+    case resetSpeed
 
     static var defaultValue = MouseClickAction.none
 

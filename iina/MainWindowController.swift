@@ -1033,6 +1033,10 @@ class MainWindowController: PlayerWindowController {
       hideUIAndCursor()
     case .togglePIP:
       menuTogglePIP(.dummy)
+    case .abLoop:
+      player.abLoop()
+    case .resetSpeed:
+      player.setSpeed(1.0)
     default:
       break
     }
