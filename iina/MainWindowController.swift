@@ -994,6 +994,10 @@ class MainWindowController: PlayerWindowController {
       if #available(macOS 10.12, *) {
         menuTogglePIP(.dummy)
       }
+    case .abloop:
+      player.abLoop()
+    case .resetspeed:
+      player.setSpeed(1.0)
     default:
       break
     }
