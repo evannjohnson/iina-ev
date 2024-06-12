@@ -475,7 +475,9 @@ class PlayerWindowController: NSWindowController, NSWindowDelegate {
       player.setVolume(newVolume)
       volumeSlider.doubleValue = newVolume
     case .speed:
-      let newSpeed = player.info.playSpeed + (player.info.playSpeed * 0.01 * delta)
+      let maxi = 4.0
+      let mini = 0.05
+      let newSpeed = max(mini,min(maxi,(player.info.playSpeed + (player.info.playSpeed * 0.01 * delta))))
       player.setSpeed(newSpeed)
     default:
       break
