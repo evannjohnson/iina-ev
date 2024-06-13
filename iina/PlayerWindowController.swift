@@ -474,6 +474,11 @@ class PlayerWindowController: NSWindowController, NSWindowDelegate {
       let newVolume = player.info.volume + (isMouse ? delta : AppData.volumeMap[volumeScrollAmount] * delta)
       player.setVolume(newVolume)
       volumeSlider.doubleValue = newVolume
+    case .speed:
+      let min = 0.05
+      let max = 4.0
+      let newSpeed = (player.info.playSpeed + (player.info.playSpeed * 0.005 * delta)).clamped(to: min...max)
+      player.setSpeed(newSpeed)
     default:
       break
     }
