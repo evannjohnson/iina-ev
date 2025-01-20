@@ -195,6 +195,7 @@
                             <items>
                                 <menuItem title="Adjust volume" state="on" id="SYg-hW-b6r"/>
                                 <menuItem title="Seek" tag="1" id="RCe-3m-q9N"/>
+                                <menuItem title="Adjust playback speed" tag="4" id="XXq-G1-9sl"/>
                                 <menuItem title="None" tag="2" id="NjV-fH-YgN"/>
                             </items>
                         </menu>
@@ -211,6 +212,8 @@
                         <menu key="menu" id="aEA-Qe-wDM">
                             <items>
                                 <menuItem title="Seek" state="on" tag="1" id="wcS-tP-wav"/>
+                                <menuItem title="Adjust volume" id="CXf-Ca-OhE"/>
+                                <menuItem title="Adjust playback speed" tag="4" id="nJZ-9M-DHk"/>
                                 <menuItem title="None" tag="2" id="guu-dK-YfL"/>
                             </items>
                         </menu>
