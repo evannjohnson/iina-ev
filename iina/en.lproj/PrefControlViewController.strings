@@ -1,6 +1,9 @@
 /* Class = "NSTextFieldCell"; title = "Seek type:"; ObjectID = "1yb-m4-1sK"; */
 "1yb-m4-1sK.title" = "Seek type:";
 
+/* Class = "NSMenuItem"; title = "Set/clear A-B loop points"; ObjectID = "65z-Gm-oZu"; */
+"65z-Gm-oZu.title" = "Set/clear A-B loop points";
+
 /* Class = "NSMenuItem"; title = "Toggle fullscreen"; ObjectID = "6F4-gm-oBg"; */
 "6F4-gm-oBg.title" = "Toggle fullscreen";
 
@@ -27,6 +30,9 @@
 
 /* Class = "NSTextFieldCell"; title = "Pinch to:"; ObjectID = "E8H-pO-MLc"; */
 "E8H-pO-MLc.title" = "Pinch to:";
+
+/* Class = "NSMenuItem"; title = "Set/clear A-B loop points"; ObjectID = "GHK-4G-DAj"; */
+"GHK-4G-DAj.title" = "Set/clear A-B loop points";
 
 /* Class = "NSTextFieldCell"; title = "Double click to:"; ObjectID = "GPH-fM-XHN"; */
 "GPH-fM-XHN.title" = "Double click to:";
@@ -70,8 +76,20 @@
 /* Class = "NSMenuItem"; title = "Adjust volume"; ObjectID = "SYg-hW-b6r"; */
 "SYg-hW-b6r.title" = "Adjust volume";
 
+/* Class = "NSMenuItem"; title = "Reset playback speed"; ObjectID = "Vv4-AU-kGj"; */
+"Vv4-AU-kGj.title" = "Reset playback speed";
+
+/* Class = "NSMenuItem"; title = "Adjust playback speed"; ObjectID = "XXq-G1-9sl"; */
+"XXq-G1-9sl.title" = "Adjust playback speed";
+
 /* Class = "NSTextFieldCell"; title = "Sensitivity for volume:"; ObjectID = "YQH-1a-WcM"; */
 "YQH-1a-WcM.title" = "Sensitivity for volume:";
+
+/* Class = "NSMenuItem"; title = "Reset playback speed"; ObjectID = "Zbp-ok-mMJ"; */
+"Zbp-ok-mMJ.title" = "Reset playback speed";
+
+/* Class = "NSTextFieldCell"; title = "Sensitivity for speed:"; ObjectID = "aa0-Qo-1nw"; */
+"aa0-Qo-1nw.title" = "Sensitivity for speed:";
 
 /* Class = "NSMenuItem"; title = "None"; ObjectID = "chS-d2-TG1"; */
 "chS-d2-TG1.title" = "None";
@@ -94,11 +112,20 @@
 /* Class = "NSMenuItem"; title = "Hide OSC"; ObjectID = "iFF-Gq-tVx"; */
 "iFF-Gq-tVx.title" = "Hide OSC";
 
+/* Class = "NSMenuItem"; title = "Set/clear A-B loop points"; ObjectID = "iLX-jW-Tdw"; */
+"iLX-jW-Tdw.title" = "Set/clear A-B loop points";
+
+/* Class = "NSMenuItem"; title = "Reset playback speed"; ObjectID = "ig1-kk-RZu"; */
+"ig1-kk-RZu.title" = "Reset playback speed";
+
 /* Class = "NSMenuItem"; title = "None"; ObjectID = "jnR-2I-4x4"; */
 "jnR-2I-4x4.title" = "None";
 
 /* Class = "NSMenuItem"; title = "Pause / Resume"; ObjectID = "mOX-Fi-oTv"; */
 "mOX-Fi-oTv.title" = "Pause / Resume";
+
+/* Class = "NSMenuItem"; title = "Adjust playback speed"; ObjectID = "nJZ-9M-DHk"; */
+"nJZ-9M-DHk.title" = "Adjust playback speed";
 
 /* Class = "NSMenuItem"; title = "None"; ObjectID = "oOk-y6-lek"; */
 "oOk-y6-lek.title" = "None";
